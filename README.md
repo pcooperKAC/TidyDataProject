@@ -13,6 +13,6 @@ bind labels and subjects to data, create master table
 
 extract subject, label, and mean/std variables
 
-create summary data set
+group by subject and and activity to create summary data set
 
 write txt file
