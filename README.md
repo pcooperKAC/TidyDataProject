@@ -5,9 +5,9 @@ This script creates a tidy analysis dataset from the 'UCI HAR dataset'. The UCI 
 
 I grouped my code into the following steps:
 
-#### set working directory, download and unzip files ####
-#### load activity labels, features, labels, subjects, and data ####
-#### bind labels and subjects to data, create master table ####
-#### extract subject, label, and mean/std variables ####
-#### create summary data set ####
-#### write txt file ####
+set working directory, download and unzip files
+load activity labels, features, labels, subjects, and data
+bind labels and subjects to data, create master table
+extract subject, label, and mean/std variables
+create summary data set
+write txt file
