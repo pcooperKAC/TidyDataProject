@@ -26,7 +26,7 @@ master <- merge(rbind(train, test), activity_labels)
 #### extract subject, label, and mean/std variables ####
 extract <- master[c(2, 564, c(grep("mean()", features$V2), grep("std()", features$V2))+2)]
 
-#### create summary data set ####
+#### group by subject and activity to create summary data set ####
 summary <- data.frame(summarise_each(group_by(extract, Activity, Subject), funs(mean)))
 
 #### write txt file ####
