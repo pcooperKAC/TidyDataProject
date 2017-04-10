@@ -1,7 +1,7 @@
 # TidyDataProject
 Coursera: Getting and Cleaning Data
 
-This script creates a tidy analysis dataset from the 'UCI HAR dataset'. The UCI dataset contains summary statistics of data collected from smartphone accelerometers and gyrometers. Thirty subjects performed six different activities with smartphones attached.
+The script "run_analysis.R" creates a tidy analysis dataset from the 'UCI HAR dataset'. The UCI dataset contains summary statistics of data collected from smartphone accelerometers and gyrometers. Thirty subjects performed six different activities with smartphones attached.
 
 The script downloads the necessary files from the web, processes them and outputs a .txt file.
 I grouped my code into the following steps:
