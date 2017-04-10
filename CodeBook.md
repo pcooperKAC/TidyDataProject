@@ -1,4 +1,4 @@
-This script creates a tidy analysis dataset from the 'UCI HAR dataset'. The UCI dataset contains summary statistics of data collected from smartphone accelerometers and gyrometers. Thirty subjects performed six different activities with smartphones attached.
+The script "run_analysis.R" creates a tidy analysis dataset from the 'UCI HAR dataset'. The UCI dataset contains summary statistics of data collected from smartphone accelerometers and gyrometers. Thirty subjects performed six different activities with smartphones attached.
 
 The first two variables are a description of the activity performed and the subject indicated by number.
 
