@@ -7,14 +7,14 @@ The script downloads the necessary files from the web, processes them and output
 I grouped my code into the following steps:
 
 
-set working directory, download and unzip files
+1. set working directory, download and unzip files
 
-load activity labels, features, labels, subjects, and data
+2. load activity labels, features, labels, subjects, and data
 
-bind labels and subjects to data, create master table
+3. bind labels and subjects to data, create master table
 
-extract subject, label, and mean/std variables
+4. extract subject, label, and mean/std variables
 
-group by subject and and activity to create summary data set
+5. group by subject and and activity to create summary data set
 
-write txt file
+6. write txt file
